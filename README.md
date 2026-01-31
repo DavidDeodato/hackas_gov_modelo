@@ -48,7 +48,7 @@ As métricas são geradas automaticamente pelo treino e salvas em `models/metric
 - **AUC**: 1.000000
 - **Matriz de confusão**: VP=2325, FP=1, VN=2339, FN=0
 
-> Observação: essas métricas são do **split de teste** do dataset **sintético ampliado** (`data/dataset_pedidos_lai_aug.csv`). A avaliação oficial do hackathon ocorrerá no **subconjunto de controle** da CGDF (não disponível ao participante).
+> Observação: essas métricas são do **split de teste** do dataset **sintético ampliado** (`data/dataset_pedidos_lai_aug.csv`). 
 
 ### Figuras (geradas a partir do modelo exportado)
 
@@ -79,6 +79,58 @@ py .\src\report_plots.py
 ![](docs/top_features_tfidf.png)
 
 ---
+
+## Diagnóstico na amostra e-SIC (sem rótulo)
+
+O repositório contém `AMOSTRA_e-SIC - Amostra - SIC.csv` (textos mascarados) sem coluna de rótulo.
+Por isso, não é possível calcular Precisão/Recall/F1 nessa amostra sem anotação manual.
+
+Resultados do último diagnóstico executado (ver `docs/amostra_relatorio.md`):
+- Total de registros: **99**
+- Threshold usado: **0.4400**
+- Percentual predito como contendo dados pessoais: **10.10%**
+
+Observação: **10.10% não é acurácia**. É apenas a proporção de registros que o modelo marcou como positivos na amostra.
+
+Para gerar um relatório objetivo do comportamento do modelo na amostra (taxa de positivos, histograma, exemplos extremos) e exportar um CSV com as predições:
+
+```bash
+py .\src\evaluate_amostra.py
+```
+
+Saídas geradas:
+- `docs/amostra_predictions.csv`
+- `docs/amostra_relatorio.md`
+- `docs/amostra_proba_hist.png`
+
+Prévia:
+
+![](docs/amostra_proba_hist.png)
+
+---
+
+## Avaliação com rótulo manual (amostra e-SIC)
+
+Para calcular Precisão/Recall/F1 na amostra e-SIC, é necessário criar um arquivo de rótulos.
+
+1) Gerar template para anotação (ID + label):
+
+```bash
+py .\src\evaluate_amostra.py --export-label-template .\docs\amostra_labels_template.csv
+```
+
+2) Preencher manualmente a coluna `contem_dados_pessoais` com 0/1 e salvar como, por exemplo:
+`docs/amostra_labels.csv`
+
+3) Calcular métricas do modelo nessa amostra rotulada:
+
+```bash
+py .\src\evaluate_amostra.py --labels .\docs\amostra_labels.csv
+```
+
+Saídas geradas:
+- `docs/amostra_metricas.json`
+- `docs/amostra_confusion_matrix.png`
 
 ## Critérios do edital
 

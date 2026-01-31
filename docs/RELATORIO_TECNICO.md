@@ -150,6 +150,20 @@ Para regenerar:
 py .\src\report_plots.py
 ```
 
+#### 7.1) Diagnóstico na amostra e-SIC (sem rótulo)
+A amostra `AMOSTRA_e-SIC - Amostra - SIC.csv` não possui coluna de rótulo. Portanto, não é possível calcular Precisão/Recall/F1 diretamente nela.
+
+O script abaixo gera um relatório objetivo do comportamento do modelo nessa amostra (percentual de positivos preditos, histograma de probabilidades e exemplos extremos), além de exportar um CSV com as predições:
+
+```bash
+py .\src\evaluate_amostra.py
+```
+
+Saídas:
+- `docs/amostra_predictions.csv`
+- `docs/amostra_relatorio.md`
+- `docs/amostra_proba_hist.png`
+
 Notas sobre interpretação:
 - Curva ROC pode ser alta mesmo quando o threshold está mal calibrado; por isso, mantemos também PR curve e histograma de probabilidades.
 - `top_features_tfidf.png` mostra termos mais associados a classe 1 e a classe 0 (coeficientes do modelo), ajudando auditoria do comportamento.
