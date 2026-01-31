@@ -19,7 +19,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sns
-from sklearn.metrics import confusion_matrix, roc_curve, auc
+from sklearn.metrics import (
+    confusion_matrix,
+    roc_curve,
+    auc,
+    precision_recall_curve,
+    average_precision_score,
+)
 from sklearn.model_selection import train_test_split
 
 
@@ -98,6 +104,71 @@ def main() -> None:
 
     print("OK:", cm_path)
     print("OK:", roc_path)
+
+    # PR curve
+    precision, recall, _ = precision_recall_curve(y_test, proba_test)
+    ap = average_precision_score(y_test, proba_test)
+    plt.figure(figsize=(5, 4))
+    plt.plot(recall, precision, label=f"AP = {ap:.4f}")
+    plt.title("Curva Precision-Recall (TF‑IDF + LogReg)")
+    plt.xlabel("Recall")
+    plt.ylabel("Precision")
+    plt.legend(loc="lower left")
+    pr_path = os.path.join(out_dir, "pr_curve_tfidf.png")
+    plt.tight_layout()
+    plt.savefig(pr_path, dpi=200)
+    plt.close()
+
+    # Histogram of probabilities by class
+    plt.figure(figsize=(6, 4))
+    sns.histplot(proba_test[y_test == 0], bins=30, stat="density", label="Sem dados", color="#1f77b4", alpha=0.5)
+    sns.histplot(proba_test[y_test == 1], bins=30, stat="density", label="Com dados", color="#d62728", alpha=0.5)
+    plt.axvline(threshold, linestyle="--", linewidth=1, color="black", label=f"threshold={threshold:.2f}")
+    plt.title("Distribuição de probabilidade por classe (teste)")
+    plt.xlabel("P(y=1)")
+    plt.ylabel("Densidade")
+    plt.legend()
+    proba_hist_path = os.path.join(out_dir, "proba_hist_tfidf.png")
+    plt.tight_layout()
+    plt.savefig(proba_hist_path, dpi=200)
+    plt.close()
+
+    # Top coefficients (interpretabilidade)
+    try:
+        feats = model.named_steps["features"]
+        clf = model.named_steps["clf"]
+        word_vec = feats.transformer_list[0][1]
+        char_vec = feats.transformer_list[1][1]
+        names_word = [f"word:{t}" for t in word_vec.get_feature_names_out()]
+        names_char = [f"char:{t}" for t in char_vec.get_feature_names_out()]
+        feature_names = np.array(names_word + names_char)
+        coefs = clf.coef_.ravel()
+
+        top_k = 20
+        idx_pos = np.argsort(coefs)[-top_k:][::-1]
+        idx_neg = np.argsort(coefs)[:top_k]
+
+        labels = np.concatenate([feature_names[idx_pos], feature_names[idx_neg]])
+        values = np.concatenate([coefs[idx_pos], coefs[idx_neg]])
+
+        plt.figure(figsize=(10, 7))
+        sns.barplot(x=values, y=labels, orient="h")
+        plt.axvline(0, color="black", linewidth=1)
+        plt.title("Top termos por coeficiente (classe 1 vs classe 0)")
+        plt.xlabel("Coeficiente (LogReg)")
+        plt.ylabel("Termo")
+        top_feat_path = os.path.join(out_dir, "top_features_tfidf.png")
+        plt.tight_layout()
+        plt.savefig(top_feat_path, dpi=200)
+        plt.close()
+    except Exception as e:
+        top_feat_path = None
+        print("WARN: não foi possível gerar top_features_tfidf.png:", e)
+
+    print("OK:", pr_path)
+    print("OK:", proba_hist_path)
+    if top_feat_path:
+        print("OK:", top_feat_path)
 
 
 if __name__ == "__main__":

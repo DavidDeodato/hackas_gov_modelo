@@ -1,24 +1,20 @@
-# 🏆 Hackathon CGDF - Detecção de Dados Pessoais em Pedidos LAI
+# Hackathon CGDF - Detecção de Dados Pessoais em Pedidos LAI
 
-## 📋 Descrição do Projeto
+## Descrição do Projeto
 
 Solução desenvolvida para o **1º Hackathon em Controle Social: Desafio Participa DF** na categoria **Acesso à Informação**.
 
-Este projeto implementa um modelo de Machine Learning de alto desempenho capaz de identificar automaticamente pedidos de acesso à informação (LAI) que contenham dados pessoais (CPF, RG, telefone, email, endereço, etc.) e que, portanto, deveriam ser classificados como **não públicos** conforme a LGPD.
+Este projeto implementa um modelo de Machine Learning capaz de identificar automaticamente pedidos de acesso à informação (LAI) que contenham dados pessoais (ex.: CPF, RG, telefone, e-mail, endereço, nome) e que, portanto, deveriam ser classificados como **não públicos** conforme a LGPD.
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
-Desenvolver uma solução automatizada para:
-- **Detectar** a presença de dados pessoais em pedidos LAI
-- **Classificar** pedidos como "contendo dados pessoais" ou "não contendo dados pessoais"
-- **Identificar** os tipos específicos de dados pessoais encontrados
-- **Garantir** alta precisão e recall para proteção de dados
+Entregar um modelo reprodutível que maximize o F1 (P1 do edital) e seja simples de executar e auditar.
 
 ---
 
-## ⚡ Quickstart (o que a banca precisa para testar)
+## Execução rápida
 
 ### 1) Instalar dependências
 
@@ -40,11 +36,11 @@ py .\test_frases.py
 
 ---
 
-## 📊 Métricas (reprodutíveis)
+## Métricas (reprodutíveis)
 
 As métricas são geradas automaticamente pelo treino e salvas em `models/metricas_tfidf.json`.
 
-**Último treino registrado**:
+Último treino registrado (ver `models/metricas_tfidf.json`):
 - **F1**: 0.999785
 - **Precisão**: 0.999570
 - **Recall**: 1.000000
@@ -54,7 +50,7 @@ As métricas são geradas automaticamente pelo treino e salvas em `models/metric
 
 > Observação: essas métricas são do **split de teste** do dataset **sintético ampliado** (`data/dataset_pedidos_lai_aug.csv`). A avaliação oficial do hackathon ocorrerá no **subconjunto de controle** da CGDF (não disponível ao participante).
 
-### Figuras
+### Figuras (geradas a partir do modelo exportado)
 
 Para (re)gerar as figuras:
 
@@ -70,32 +66,36 @@ py .\src\report_plots.py
 
 ![](docs/roc_curve_tfidf.png)
 
----
+**Curva Precision-Recall**
 
-## 🏆 Pontuação no Hackathon
+![](docs/pr_curve_tfidf.png)
 
-### Critério P1 - Técnicas de Desempenho
+**Distribuição de probabilidades (teste)**
 
-A pontuação P1 é calculada pela fórmula:
-```
-P1 = 2 × (Precisão × Recall) / (Precisão + Recall)
-P1 = F1 (na prática)
-```
+![](docs/proba_hist_tfidf.png)
 
-O projeto busca maximizar o F1 (P1) reduzindo falsos negativos sem inflar falsos positivos.
+**Top termos (coeficientes do modelo)**
 
-### Critério P2 - Documentação da Solução
-
-| Critério | Pontos | Status |
-|----------|--------|--------|
-| Instruções de Instalação e Dependência | 3/3 | ✅ |
-| Instruções de Execução | 3/3 | ✅ |
-| Clareza e Organização | 4/4 | ✅ |
-| **TOTAL** | **10/10** | ✅ |
+![](docs/top_features_tfidf.png)
 
 ---
 
-## 🗂️ Estrutura do Projeto
+## Critérios do edital
+
+O edital mede desempenho por **Precisão** e **Recall** e usa a fórmula:
+
+```text
+P1 = 2 × (Precisão × Recall) / (Precisão + Recall)   (equivalente ao F1)
+```
+
+Este repositório entrega (reprodutível):
+- um modelo executável (`models/modelo_tfidf.pkl`) e um script de inferência (`src/predict_final.py`)
+- treino reprodutível (`src/train.py`) com export de métricas (`models/metricas_tfidf.json`)
+- documentação e relatório técnico (`docs/RELATORIO_TECNICO.md`)
+
+---
+
+## Estrutura do Projeto
 
 ```
 hackathon_cgdf/
@@ -121,7 +121,7 @@ hackathon_cgdf/
 
 ---
 
-## 🚀 Instalação
+## Instalação
 
 ### Pré-requisitos
 
@@ -160,7 +160,7 @@ pip install -r requirements.txt
 
 ---
 
-## 💻 Uso
+## Uso
 
 ### Classificação de um único pedido
 
@@ -222,7 +222,7 @@ print(resultado['tipos_dados_encontrados']) # Lista de tipos
 
 ---
 
-## 🔍 Tipos de Dados Detectados
+## Tipos de Dados Detectados
 
 O modelo identifica os seguintes tipos de dados pessoais:
 
@@ -239,7 +239,7 @@ O modelo identifica os seguintes tipos de dados pessoais:
 
 ---
 
-## 🧠 Metodologia
+## Metodologia (resumo)
 
 ### 1. Dataset
 
@@ -262,7 +262,7 @@ Neste projeto, a “feature engineering” principal é **textual**, via TF‑ID
 
 ---
 
-## 📈 Resultados da Validação
+## Resultados da Validação
 
 ### Modelos Testados
 
@@ -272,7 +272,7 @@ Neste projeto, a “feature engineering” principal é **textual**, via TF‑ID
 
 ---
 
-## 🔧 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Python 3.9+**
 - **Scikit-learn** - Machine Learning
@@ -282,7 +282,7 @@ Neste projeto, a “feature engineering” principal é **textual**, via TF‑ID
 
 ---
 
-## 🏋️ Treino (reprodutível)
+## Treino (reprodutível)
 
 ### 1) Gerar dataset ampliado
 
@@ -304,9 +304,9 @@ py .\test_frases.py
 
 ---
 
-## 🤖 Uso de IA (exigência do edital)
+## Uso de IA (conforme edital)
 
-O edital permite uso de IA desde que documentado. Esta seção deve listar claramente:
+O edital permite uso de IA desde que documentado. Caso tenha sido utilizado IA durante o desenvolvimento, listar claramente:
 - modelo(s) usados, prompts/assistência (se aplicável)
 - bibliotecas e fontes
 - o que foi automatizado vs. o que foi decidido pelo time
@@ -334,12 +334,7 @@ Para dúvidas ou sugestões sobre o projeto, entre em contato através do reposi
 
 ---
 
-## 🏆 Resumo da Pontuação
+## Observações finais
 
-| Critério | Pontuação |
-|----------|-----------|
-| **P1 (Técnicas de Desempenho)** | **100%** (F1-Score = 1.0) |
-| **P2 (Documentação)** | **10/10 pontos** |
-| **TOTAL ESPERADO** | **Pontuação Máxima** |
-
-**✅ Projeto pronto para submissão e vitória no hackathon!**
+- O repositório contém métricas locais do dataset sintético ampliado e ferramentas para reproduzir o treino.
+- A avaliação oficial é feita pela CGDF em subconjunto de controle.
