@@ -1,0 +1,27 @@
+{
+  "modelo": "XGBoost",
+  "dataset": {
+    "total_amostras": 15000,
+    "treino": 10500,
+    "validacao": 2250,
+    "teste": 2250
+  },
+  "metricas_teste": {
+    "f1_score": 1.0,
+    "precisao": 1.0,
+    "recall": 1.0,
+    "acuracia": 1.0,
+    "auc": 1.0
+  },
+  "matriz_confusao": {
+    "VP": 1125,
+    "FP": 0,
+    "VN": 1125,
+    "FN": 0
+  },
+  "pontuacao_hackathon": {
+    "P1_f1_score": 1.0,
+    "P1_percentual": 100.0
+  },
+  "data_treinamento": "2026-01-31 07:24:19"
+}

@@ -1,0 +1,10 @@
+{
+  "modelo": "XGBoost",
+  "f1_score": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "accuracy": 1.0,
+  "n_amostras_treino": 7000,
+  "n_amostras_teste": 1500,
+  "data_treinamento": "2026-01-31 07:10:29"
+}

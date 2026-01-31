@@ -1,0 +1,29 @@
+{
+  "modelo": "TFIDF+LogReg",
+  "seed": 42,
+  "dataset": {
+    "path": "C:\\Users\\pc\\OneDrive\\Desktop\\PROJETOS\\hackas_gov_modelo\\data\\dataset_pedidos_lai_aug.csv",
+    "total_amostras": 31099,
+    "treino": 21769,
+    "validacao": 4665,
+    "teste": 4665
+  },
+  "threshold": {
+    "best": 0.43999999999999995,
+    "f1_validacao": 1.0
+  },
+  "metricas_teste": {
+    "f1": 0.9997849924747366,
+    "precisao": 0.9995700773860705,
+    "recall": 1.0,
+    "acuracia": 0.99978563772776,
+    "auc": 1.0
+  },
+  "matriz_confusao": {
+    "VP": 2325,
+    "FP": 1,
+    "VN": 2339,
+    "FN": 0
+  },
+  "data_treinamento": "2026-01-30 21:13:11"
+}

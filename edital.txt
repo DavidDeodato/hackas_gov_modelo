@@ -1,0 +1,425 @@
+Versão Digital
+GOVERNO DO DISTRITO FEDERAL
+CASA CIVIL
+SECRETARIA EXECUTIVA DE ATOS OFICIAIS
+SEÇÃO III >> CONTROLADORIA-GERAL
+EDITAL N° 10, DE 24 DE NOVEMBRO DE 2025
+1º HACKATHON EM CONTROLE SOCIAL: DESAFIOPARTICIPADF – CONECTANDO GOVERNO E
+CIDADÃO
+O SECRETÁRIO DE ESTADO CONTROLADOR-GERAL DO DISTRITO FEDERAL, no uso das atribuições
+que lhe confere os incisos III e V do Parágrafo Único do art. 105 da Lei Orgânica do Distrito Federal e
+a competência conforme o Decreto nº 42.830, de 17 de dezembro de 2021, TORNA PÚBLICA a
+realização do 1º Hackathon em Controle Social: Desafio Participa DF – Conectando Governo e
+Cidadão.
+1. DAS DISPOSIÇÕES PRELIMINARES
+1.1. Este edital estabelece regras, condições e procedimentos para participação no 1º Hackathon
+em Controle Social: Desafio Participa DF – Conectando Governo e Cidadão.
+1.1.1. O Participa DF é a plataforma de participação social do Poder Executivo do Distrito Federal,
+que reúne os serviços de Ouvidoria e Acesso à Informação, com a finalidade de fortalecer a
+transparência pública e promover o exercício da cidadania, por meio do diálogo entre o Estado e o
+usuário dos serviços públicos.
+1.2. A organização e a execução do Desafio Participa DF competem à Controladoria-Geral do Distrito
+Federal (CGDF), com apoio financeiro do Fundo Distrital de Combate à Corrupção (FDCC).
+2. DO OBJETO
+2.1. O Desafio Participa DF tem como objetivo impulsionar o desenvolvimento de soluções
+tecnológicas que aprimorem a plataforma Participa DF. As soluções buscam promover maior
+participação cidadã, por meio do serviço de Ouvidoria e aperfeiçoando a análise e classificação de
+pedidos no serviço de Acesso à Informação, com foco na proteção de dados pessoais.
+2.2. O Desafio Participa DF contemplará duas categorias:
+I) Acesso à Informação: desenvolvimento de solução para identificar automaticamente, entre os
+pedidos de acesso à informação marcados como públicos, aqueles que contenham dados pessoais
+e que, portanto, deveriam ser classificados como não públicos. Para os fins deste edital,
+consideram-se dados pessoais as informações que permitam a identificação direta ou indireta de
+uma pessoa natural, tais como nome, CPF, RG, telefone e endereço de e-mail.
+II) Ouvidoria: desenvolvimento de solução digital inovadora e acessível para o Participa DF, que
+permita o registro de manifestações por texto, áudio, imagem e vídeo, com emissão automática de
+protocolo, opção de anonimato e acessibilidade plena conforme as diretrizes WCAG, promovendo
+inclusão, usabilidade e integração com o sistema de inteligência artificial IZA da Ouvidoria-Geral do
+DF.
+3. DAS DATAS E LOCAL
+3.1. O Desafio Participa DF será realizado na modalidade virtual, no período previsto no item 12
+deste edital.
+3.2 O resultado do desafio será transmitido virtualmente pelo canal da Controladoria-Geral do
+Distrito Federal no YouTube: https://www.youtube.com/@TVCONTROLADORIADF, conforme prazo
+estabelecido no item 12.
+4. DO PÚBLICO-ALVO
+4.1. Poderão participar do Desafio Participa DF pessoas com idade igual ou superior a 18 (dezoito)
+anos completos até o dia da inscrição.
+4.2. Estão impedidos de participar do Desafio Participa DF:
+I - Servidores, colaboradores e estagiários da CGDF.
+II - Cônjuge, companheiro(a) e parentes, em linha reta, colateral ou por afinidade, até o terceiro grau,
+dos servidores, colaboradores e estagiários da CGDF.
+5. DAS ETAPAS
+5.1. São etapas do Desafio Participa DF:
+I - Inscrição e submissão: etapa em que os participantes realizam a inscrição, individualmente ou em
+equipe, conforme disposto no item 6 deste edital.
+II - Avaliação: etapa destinada à análise das soluções submetidas, realizada pela Comissão
+Organizadora e Avaliadora, com base nos critérios definidos neste edital.
+III - Resultado: etapa de divulgação das três melhores soluções de cada categoria, conforme a
+avaliação da Comissão Organizadora e Avaliadora.
+IV - Documentação: etapa destinada à entrega, pelos participantes vencedores ou pelos
+representantes das equipes vencedoras, da documentação exigida para a efetivação do pagamento
+da premiação, conforme o item 11.7 deste edital. O não envio dos documentos no prazo
+estabelecido no item 12 acarretará a impossibilidade de recebimento da premiação.
+V - Premiação: pagamento aos participantes ou aos representantes das equipes responsáveis pelas
+três melhores soluções em cada categoria.
+6. DAS INSCRIÇÕES E SUBMISSÕES
+6.1. As inscrições serão gratuitas e realizadas exclusivamente por formulário eletrônico de inscrição,
+a ser disponibilizado no endereço https://www.cg.df.gov.br/.
+6.2. O período de inscrições será aquele definido no cronograma constante do item 12 deste edital.
+6.3. A inscrição no Desafio Participa DF poderá ser individual ou em equipe de até 3 (três)
+integrantes.
+6.3.1. Os participantes que optarem pelo formato de equipe deverão incluir todos os integrantes no
+mesmo ato de inscrição.
+6.3.2. As equipes deverão designar um membro representante responsável pela eventual divisão do
+prêmio, caso sejam vencedoras.
+6.3.3. Não será permitida a substituição de membros das equipes após o encerramento das
+inscrições.
+6.4. É permitida a participação em ambas as categorias, desde que sejam realizadas inscrições
+separadas para cada uma delas.
+6.5. Informações obrigatórias para inscrição e submissão:
+6.5.1. As inscrições deverão ser efetuadas mediante o preenchimento completo do formulário
+eletrônico, contendo as informações e os links solicitados, conforme especificado neste edital.
+6.5.2. O formulário deverá conter, obrigatoriamente, as seguintes informações:
+I - Categoria à qual concorre (Acesso à Informação ou Ouvidoria);
+II - Nome completo, CPF, data de nascimento, e-mail e telefone do(a) participante ou de todos os
+integrantes, no caso de inscrição em equipe;
+III - Indicação do membro responsável pela equipe, se for o caso;
+IV - Breve resumo do projeto proposto com até 1.500 (mil e quinhentos) caracteres, descrevendo a
+solução e as principais funcionalidades ou diferenciais;
+V - Link do repositório (GitHub ou GitLab) com a solução desenvolvida e a documentação, conforme
+estabelecido neste edital. Para a participação na categoria Ouvidoria, o arquivo README.md deverá
+conter o link do vídeo de demonstração da solução proposta, hospedado em plataforma pública (ex.:
+YouTube não listado, Vimeo ou equivalente).
+6.6. O repositório deverá estar configurado como público, permitindo acesso para visualização e
+clonagem sem necessidade de autenticação. Não serão aceitas submissões em repositórios
+privados, protegidos por senha ou que exijam autenticação individual.
+6.6.1. Alterações, commits ou uploads realizados no repositório após o preenchimento do formulário
+de inscrição e submissão não serão considerados pela Comissão Organizadora e Avaliadora.
+6.6.2. A data e hora de envio do formulário corresponderão à data oficial de submissão.
+6.7. O preenchimento incorreto ou incompleto do formulário eletrônico, bem como a ausência de
+documento ou link exigidos, implicará na invalidação da inscrição.
+6.8. A inscrição no Desafio Participa DF implica a aceitação de todos os termos constantes neste
+edital.
+7. DA PARTICIPAÇÃO
+7.1. A participação no Desafio é voluntária, gratuita, nominativa e intransferível, vedada a
+representação por terceiros.
+7.2. Os participantes devem dispor de seus próprios equipamentos para o desenvolvimento das
+atividades do Desafio. Não será fornecida qualquer infraestrutura técnica da CGDF.
+8. DA METODOLOGIA E AVALIAÇÃO
+8.1. Categoria Acesso à Informação:
+8.1.1. A CGDF disponibilizará no sítio eletrônico https://www.cg.df.gov.br/, um conjunto amostral de
+pedidos de acesso à informação, recebidos pelo Governo do Distrito Federal e previamente
+marcados como públicos. Parte dessas manifestações conterá dados sintéticos (simulações de
+dados pessoais), criados exclusivamente para fins de teste, com o objetivo de permitir que os
+participantes desenvolvam modelos capazes de identificar automaticamente pedidos que
+contenham informações pessoais e que, portanto, deveriam ser classificados como não públicos.
+Nenhum dado pessoal real será disponibilizado aos participantes.
+8.1.2. Os participantes deverão submeter, na data definida por este regulamento, os modelos
+desenvolvidos e a respectiva documentação técnica para a solução proposta.
+8.1.3. A CGDF submeterá todos os modelos recebidos ao mesmo subconjunto de controle, de
+pedidos de acesso à informação, a fim de avaliar os resultados obtidos.
+8.1.4. As soluções vencedoras serão aquelas que apresentarem maiores pontuações na avaliação,
+conforme item 8.1.5.
+8.1.5. Critérios de avaliação da categoria Acesso à Informação.
+8.1.5.1. A nota do projeto será a soma da pontuação P1: técnicas de desempenho, com a pontuação
+P2: documentação da solução apresentada.
+Nota do Projeto = P1 + P2
+Técnicas de Desempenho P1
+Documentação da soluçãoP2
+8.1.5.2. A pontuação P1 será mensurada a partir dos critérios de precisão e de sensibilidade
+apurados do modelo.
+8.1.5.2.1. Precisão: Mede a exatidão das classificações positivas. Ou seja, de todos os pedidos que
+o modelo classificou como "contendo dados pessoais", quantos realmente continham. É calculada
+pela seguinte fórmula:
+Precisão VP / (VP+FP)
+Verdadeiros PositivosVP
+Falsos Positivos FP
+8.1.5.2.2. Sensibilidade/Recall: Mede a capacidade do modelo de encontrar todos os casos
+relevantes. Ou seja, de todos os pedidos que realmente continham dados pessoais, quantos o
+modelo conseguiu identificar. É calculada pela seguinte fórmula:
+Sensibilidade/Recall VP / (VP+FN)
+Verdadeiros PositivosVP
+Falsos Negativos FN
+8.1.5.2.3. Pontuação P1: É a métrica principal que combina Precisão e Sensibilidade para dar uma
+única medida de desempenho. É calculada pela seguinte fórmula:
+Pontuação P1
+2 x (Precisão x Sensibilidade) / (Precisão + Sensibilidade)
+8.1.5.3. A pontuação P2 será medida de acordo com a qualidade da documentação do projeto. Será
+avaliada a clareza das instruções de instalação, configuração e execução do modelo, conforme a
+soma da pontuação descrita na tabela a seguir:
+Critério Descrição Pontos
+1. Instruções de
+Instalação e
+Dependência
+a) Lista todos os pré-requisitos, como a versão da linguagem
+deprogramação (ex: Python 3.9+) e outros softwares necessários. 1
+b) Inclui um arquivo de gerenciamento de pacotes (ex:
+requirements.txt para Python) que permite a instalação
+automatizada de todas as bibliotecas.
+2
+c) Apresenta os comandos exatos e sequenciais para criar e
+configurar o ambiente (ex: criação de ambiente virtual, instalação
+de dependências). 1
+2. Instruções de
+Execução
+a) Fornece o(s) comando(s) exato(s) para executar o
+modelo/script, incluindo exemplos de argumentos, se houver. 2
+b) Descreve claramente o formato de dados esperado na entrada e
+o formato dos dados que serão gerados na saída. 1
+3. Clareza e
+Organização
+a) Contém um arquivo principal de texto (ex: README.md) que
+descreve o objetivo da solução e a função de cada arquivo
+importante no projeto.
+1
+b) O código-fonte possui comentários em trechos complexos ou
+em funções chave, explicando a lógica implementada. 1
+c) A estrutura de arquivos do projeto é lógica e organizada (ex:
+separando dados, scripts, modelos, etc.). 1
+TOTAL 10
+8.1.5.3.1. A pontuação de cada critério é indivisível, e será concedida em sua totalidade em caso de
+atendimento integral, não havendo pontuação para os casos de cumprimento parcial.
+8.1.5.4. Em caso de empate na pontuação final, a classificação será definida pelos seguintes
+critérios, nesta ordem:
+I - menor número de falsos negativos;
+II - menor número de falsos positivos;
+III - maior nota P1.
+8.2 Categoria Ouvidoria:
+8.2.1. O desafio da categoria Ouvidoria consiste no desenvolvimento de uma versão PWA do
+Sistema ParticipaDF, que amplie o acesso e a inclusão dos cidadãos na abertura de manifestações.
+A solução deverá contemplar recursos de acessibilidade e permitir o envio de relatos em múltiplos
+formatos, como texto e áudio, com possibilidade de anexar imagem e vídeo, além de assegurar
+anonimato opcional, emissão de protocolo e conformidade com as diretrizes de acessibilidade
+digital (WCAG).
+8.2.2. Os participantes deverão submeter, no prazo estabelecido no cronograma deste edital:
+I - a solução desenvolvida (no GitHub ou GitLab);
+II - arquivo README.md com as especificações das linguagens e tecnologias utilizadas e com os
+comandos necessários para rodar o ambiente da solução. O arquivo deve conter também o link do
+vídeo do próximo subitem;
+III - vídeo de até sete minutos demonstrando a solução em funcionamento (fluxo completo de
+manifestação, uso de múltiplos canais e recursos de acessibilidade).
+8.2.3. Serão declarados vencedores os participantes ou equipes cujas soluções alcançarem as
+maiores pontuações na avaliação, nos termos do item 8.2.4.1.
+8.2.4. Critérios de avaliação da categoria Ouvidoria:
+8.2.4.1. A pontuação do projeto será a soma da pontuação P1: critérios de entrega, com a pontuação
+P2: documentação da solução apresentada, que pode chegar ao valor máximo de 20 pontos (10
+pontos cada).
+Nota do Projeto = P1 + P2
+Critérios de entrega P1
+Documentação da soluçãoP2
+8.2.4.2. A pontuação P1 será medida de acordo com a qualidade da interface do projeto. Serão
+avaliadas as questões de acessibilidade, usabilidade, interoperabilidade, multicanalidade, conforme
+a soma da pontuação descrita na tabela a seguir:
+Critério Descrição Detalhada Pontos
+Acessibilidade Digital
+(WCAG 2.1 AA)
+Avalia a adequação do protótipo às diretrizes internacionais de
+acessibilidade, incluindo contraste de cores, leitura por teclado e
+leitores de tela, presença de alt text e legendas. Soluções que
+demonstrarem empatia e inclusão digital receberão pontuação
+máxima.
+2,5
+Multicanalidade
+Mede a capacidade da aplicação de receber manifestações por
+diferentes meios (texto escrito via teclado, voz gravada em áudio,
+upload de vídeo e imagem), garantindo usabilidade.
+3
+Usabilidade e
+Experiência do
+Usuário (UX/UI)
+Examina a jornada do cidadão: simplicidade do fluxo, clareza das
+mensagens e coerência visual. Interfaces baseadas em
+prototipagem interativa (mockups navegáveis) receberão maior
+nota.
+3
+Integração Técnica Avalia a aderência à arquitetura do ParticipaDF. 1,5
+com o ParticipaDF
+TOTAL 10
+8.2.4.3. A pontuação P2 será medida de acordo com a qualidade da documentação e vídeo do
+projeto. Será avaliada a clareza das instruções de instalação, configuração e execução do modelo,
+conforme a soma da pontuação descrita na tabela a seguir:
+Critério Descrição Pontos
+Qualidade do Código
+e Boas Práticas
+O código segue boas práticas de programação (clareza, coesão,
+baixo acoplamento, nomes significativos, tratamento de erro e
+consistência de estilo). Apresenta arquitetura coerente,
+legibilidade e padronização. 4
+Lógica e
+Funcionamento
+da Solução
+A lógica de geração da manifestação de ouvidoria está
+implementada corretamente e cobre os principais fluxos do
+processo. 3
+Instruções de
+Instalação e
+Dependências
+Arquivo README.md com as especificações das linguagens e
+tecnologias utilizadas, além dos comandos necessários para rodar o
+ambiente da solução. 1
+Demonstração da
+Solução
+Vídeo de até 7 minutos apresentando o projeto, explicando suas
+principais funcionalidades e decisões técnicas. 1
+Clareza e Organização
+do Projeto
+A estrutura de pastas e arquivos é lógica, organizada e coerente. O
+projeto é fácil de navegar e compreender. 1
+Total 10
+8.2.4.4. A pontuação de cada critério será proporcional ao nível de atendimento aos requisitos
+avaliados, admitindo-se pontuação parcial conforme o desempenho apresentado, até o limite
+máximo definido para o critério.
+8.2.4.5. A solução deverá conter README.md com instruções claras de instalação e execução, além
+de vídeo demonstrativo funcional. Soluções que não puderem ser testadas serão desclassificadas.
+8.2.5. Critérios de Desempate:
+8.2.5.1. Em caso de empate na pontuação final, aplicar-se-á, sucessivamente, a seguinte ordem de
+priorização:
+I - maior nota em Acessibilidade Digital (WCAG);
+II - maior nota em UX/UI (usabilidade e design);
+III - maior potencial de benefício coletivo da solução, considerando critérios de clareza, inclusão e
+replicabilidade no serviço público;
+IV - maior nota no critério P1;
+V - maior nota no critério de Multicanalidade;
+VI - maior nota no critério P2;
+VII - ordem cronológica de inscrição e submissão, considerando a data e hora do envio da solução.
+9. DA COMISSÃO ORGANIZADORA E AVALIADORA
+9.1. A Comissão Organizadora e Avaliadora será composta por 8 (oito) membros da CGDF, sendo 4
+(quatro) servidores da Subcontroladoria de Tecnologia da Informação e Comunicação (SUBTI), 2
+(dois) servidores da Subcontroladoria de Transparência e Controle Social (SUBTC) e 2 (dois)
+servidores da Ouvidoria-Geral.
+9.2. Os critérios de avaliação são públicos e objetivos. A decisão da Comissão Organizadora e
+Avaliadora é soberana, não cabendo recurso.
+9.3. A avaliação da categoria Acesso à Informação será homologada por dois servidores da Diretoria
+de Ciência de Dados (SUBTI) e por dois servidores da SUBTC.
+9.4. A avaliação da categoria Ouvidoria será realizada e homologada por dois servidores da
+Coordenação de Desenvolvimento e Operações (SUBTI) e por dois servidores da Ouvidoria-Geral.
+10. DIREITOS DE TERCEIROS e DIREITOS SOBRE O PRODUTO DESENVOLVIDO
+10.1. Os participantes deverão respeitar direitos de terceiros, em especial direitos autorais e direitos
+de propriedade intelectual, sob pena de serem responsabilizados por quaisquer violações de direitos
+de terceiros.
+10.2. A organização se reserva o direito de regresso ou, quando aplicável, de denunciação à lei (ou
+outra forma de intervenção de terceiros aplicada ao caso concreto) em razão de questionamentos
+que venha a sofrer por descumprimento deste item por parte dos participantes.
+10.3. Os participantes cedem e transferem totalmente, à Controladoria-Geral do Distrito Federal
+(CGDF), sem qualquer ônus, toda a propriedade intelectual decorrente das soluções desenvolvidas
+pelos participantes e equipes inscritas no Desafio Participa DF.
+10.4. A CGDF poderá, a seu critério, realizar a proteção, em nome próprio, dos direitos de
+propriedade intelectual referentes às soluções desenvolvidas para o Desafio Participa DF,
+resguardados os direitos morais relativos aos respectivos participantes, que serão incluídos na
+proteção como autores/inventores/criados/melhoristas.
+11. DO RESULTADO E DA PREMIAÇÃO
+11.1. Serão premiados, nas categorias “Acesso à Informação” e “Ouvidoria", os participantes ou as
+equipes que apresentarem as melhores soluções com base nas metodologias de avaliações
+apresentadas no item 8 deste Edital.
+11.2. Premiação (valor bruto):
+Categoria
+Colocação
+Acesso à Informação
+Ouvidoria
+1º Lugar R$ 8.000,00 (Oito mil reais) R$ 8.000,00 (Oito mil reais)
+2º Lugar R$ 5.000,00 (Cinco mil reais) R$ 5.000,00 (Cinco mil reais)
+3º Lugar R$ 2.000,00 (Dois mil reais) R$ 2.000,00 (Dois mil reais)
+11.3. A premiação ocorrerá à conta de dotação orçamentária da Controladoria-Geral do DF, com
+recursos provenientes da Portaria Conjunta nº 01/2025 – FDCC/CGDF, no Programa de Trabalho nº
+04.124.6203.4093.0001, Natureza de Despesa 339031, Fonte 131.
+11.4. O resultado do Desafio Participa DF será divulgado na data indicada no item 12 deste edital,
+por transmissão no canal oficial da Controladoria-Geral do Distrito Federal no YouTube:
+https://www.youtube.com/@TVCONTROLADORIADF, bem como publicado no sítio eletrônico
+https://www.cg.df.gov.br e no Diário Oficial do Distrito Federal.
+11.5. Nas inscrições por equipe, a divisão do prêmio será de responsabilidade de seu representante
+designado no ato da inscrição, que ficará responsável por distribuir o prêmio entre os participantes
+da equipe, eximindo a CGDF de qualquer responsabilidade.
+11.6. Os participantes são responsáveis pelo fornecimento correto e atualizado de suas
+informações e contatos, para fins de entrega da premiação.
+11.7. 
+Os 
+vencedores 
+deverão 
+encaminhar 
+para 
+o 
+endereço 
+eletrônico
+desafioparticipadf@cg.df.gov.br, no prazo estipulado no item 12, os seguintes documentos:
+a) cópia do documento de identidade e CPF;
+b) endereço com CEP;
+c) telefone para contato;
+d) dados bancários (somente conta corrente ou poupança, em nome do participante vencedor ou do
+representante da equipe vencedora) - caso o recebedor seja residente do Distrito Federal, para
+receber os prêmios de 1º ou 2º lugar (R$ 8.000 ou R$ 5.000), deve informar conta corrente, em nome
+do beneficiário, do Banco de Brasília S/A - BRB, conforme Decreto Nº 32.767/2011;
+e) certidão Negativa de Débitos junto ao GDF;
+f) certidão de Débitos Relativos a Créditos Tributários Federais e à Dívida Ativa da União;
+g) certidão Negativa de Débitos Trabalhistas;
+h) comprovação de que o seu CPF não consta com restrição no Cadastro de Empresas Inidôneas e
+Suspensas – CEIS, disponível em https://portaldatransparencia.gov.br/, no menu “Sanções”,
+submenu “Consulte as sanções”.
+11.8. Em caso de omissão, fornecimento incorreto e/ou incompleto de informações e/ou a
+existência de algum impedimento relativo à regularidade fiscal, o vencedor fica impedido de receber
+a premiação até que proceda com a regularização, observado o prazo previsto no item 12.
+11.9. Caso o vencedor não atenda aos requisitos mencionados no item anterior, perderá o direito de
+recebimento do prêmio.
+11.10. Os vencedores serão comunicados pela CGDF, por telefone e/ou e-mail, sobre informações
+detalhadas acerca da premiação.
+11.11. A premiação será realizada mediante crédito específico em conta corrente ou poupança do
+respectivo vencedor, descontadas as retenções legais.
+11.12. Após a entrega e validação da documentação dos vencedores, a CGDF terá até trinta dias
+para realizar o pagamento dos premiados.
+11.13. A responsabilidade pelo envio correto e completo da documentação é exclusiva do
+participante. Prazos são improrrogáveis e dados incorretos poderão impedir o recebimento da
+premiação.
+12. DO CRONOGRAMA
+Inscrição e Submissão 12/01/2026 a
+30/01/2026
+Formulário no sitio eletrônico
+https://www.cg.df.gov.br/
+Avaliação 02/02/2026 a
+20/02/2026 Sede da CGDF
+Resultado 23/02/2026
+https://www.cg.df.gov.br/, Diário Oficial e
+Canal @TVCONTROLADORIADF no YouTube.
+Documentação dos
+vencedores
+23/02/2026 a
+06/03/2026 desafioparticipadf@cg.df.gov.br
+Premiação 06/03/2026 a
+03/04/2026
+Sistema Integrado de Gestão
+Governamental - SIGGO
+12.1. As datas serão consideradas a partir das 8 horas do dia de início até às 23h59 do dia de
+término.
+12.2. Em caso de alteração do cronograma, a Comissão Organizadora e Avaliadora informará
+mediante comunicação por meio do sítio eletrônico https://www.cg.df.gov.br/
+13. DAS DISPOSIÇÕES GERAIS
+13.1. Todas as informações relativas ao Desafio Participa DF estarão disponíveis no sítio eletrônico
+https://www.cg.df.gov.br/.
+13.2. Pedidos de esclarecimentos, informações gerais ou dúvidas técnicas sobre o Desafio Participa
+DF deverão ser encaminhados ao e-mail institucional desafioparticipadf@cg.df.gov.br, canal oficial
+disponibilizado pela Controladoria-Geral do Distrito Federal durante todo o período de realização do
+Desafio.
+13.3. É de responsabilidade dos participantes o encaminhamento das soluções desenvolvidas,
+respeitando as diretrizes deste edital.
+13.4. Todos os candidatos são responsáveis pela autoria das soluções encaminhadas, não cabendo
+qualquer responsabilidade legal à CGDF por eventuais infringências aos direitos autorais de
+terceiros.
+13.5. Os dados pessoais fornecidos durante o Desafio Participa DF serão coletados e processados
+pela CGDF exclusivamente para fins relacionados à administração e gestão do Desafio. Esses dados
+serão utilizados para entrar em contato com os participantes, verificar a elegibilidade das inscrições,
+comunicar os resultados do concurso e premiar aos vencedores. Todos os dados pessoais serão
+tratados de acordo com as disposições da Lei Geral de Proteção de Dados (Lei nº 13.709/2018) e
+serão utilizados apenas para os fins descritos neste edital.
+13.6. A publicação do resultado ocorrerá pelo sítio eletrônico, https://www.cg.df.gov.br/, conforme
+cronograma constante no item 12 deste Edital.
+13.7. Por motivo de força maior ou necessidade administrativa devidamente justificada, este edital
+poderá ser revogado ou anulado, no todo ou em parte, por motivo de interesse público ou por
+exigência legal, sem que isso implique direito à indenização ou reclamação de qualquer natureza.
+13.8. A organização poderá excluir do Desafio, por motivo de força maior ou necessidade
+administrativa devidamente justificada, o participante ou a equipe que agir de forma fraudulenta,
+desrespeitosa ou incompatível com os objetivos do edital.
+13.9. O uso de inteligência artificial é permitido, desde que devidamente documentado no
+README.md, com indicação clara dos modelos, bibliotecas e fontes utilizadas.
+13.10. Os casos omissos e as situações não previstas neste edital serão resolvidos pela
+Controladoria-Geral do Distrito Federal.
+DANIEL ALVES LIMA
+ORDINÁRIA - Nº 222, TERÇA-FEIRA, 25 DE NOVEMBRO DE 2025
