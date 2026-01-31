@@ -36,6 +36,35 @@ py .\test_frases.py
 
 ---
 
+## Treinamento do modelo (reprodutível) e artefatos gerados
+
+O treinamento e a exportação do modelo são implementados em `src/train.py`.
+
+### 1) Gerar dataset ampliado (opcional, recomendado)
+
+```bash
+py .\src\train.py --build-dataset
+```
+
+Gera: `data/dataset_pedidos_lai_aug.csv`
+
+### 2) Treinar e exportar o modelo
+
+```bash
+py .\src\train.py --train
+```
+
+Gera:
+- `models/modelo_tfidf.pkl` (pipeline TF-IDF + Logistic Regression)
+- `models/threshold.json` (threshold escolhido por maximização de F1 na validação)
+- `models/metricas_tfidf.json` (métricas e matriz de confusão do split de teste)
+
+### 3) Inferência
+
+A inferência é feita por `src/predict_final.py`, que carrega `models/modelo_tfidf.pkl` e aplica `models/threshold.json`.
+
+---
+
 ## Métricas (reprodutíveis)
 
 As métricas são geradas automaticamente pelo treino e salvas em `models/metricas_tfidf.json`.
@@ -364,13 +393,6 @@ O edital permite uso de IA desde que documentado. Caso tenha sido utilizado IA d
 - o que foi automatizado vs. o que foi decidido pelo time
 *(Ajuste esta seção conforme a sua submissão final.)*
 
----
-
-## 👥 Autor
-
-Solução desenvolvida para o **1º Hackathon em Controle Social - Desafio Participa DF**
-
-Organizado pela: **Controladoria-Geral do Distrito Federal (CGDF)**
 
 ---
 
@@ -389,4 +411,4 @@ Para dúvidas ou sugestões sobre o projeto, entre em contato através do reposi
 ## Observações finais
 
 - O repositório contém métricas locais do dataset sintético ampliado e ferramentas para reproduzir o treino.
-- A avaliação oficial é feita pela CGDF em subconjunto de controle.
+

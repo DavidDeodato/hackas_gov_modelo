@@ -98,6 +98,15 @@ Motivo da escolha:
 - n-grams de palavras capturam contexto (“cpf”, “meu nome”, “endereço”, “SEI”, “protocolo”, “nota fiscal”).
 - threshold tuning permite controlar o trade-off **FP vs FN** diretamente na métrica do edital (F1).
 
+Implementação no repositório (código-fonte):
+- Construção do pipeline (TF-IDF + LogReg): `src/train.py` (`_make_model`)
+- Treino + split + threshold tuning + export: `src/train.py` (`train_and_export`)
+- Artefatos gerados:
+  - modelo: `models/modelo_tfidf.pkl`
+  - threshold: `models/threshold.json`
+  - métricas: `models/metricas_tfidf.json`
+- Inferência: `src/predict_final.py` (`classificar_pedido`)
+
 #### 6) Reprodutibilidade (como reproduzir)
 1) Instalar deps:
 
